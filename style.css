@@ -1903,3 +1903,43 @@ html {
     box-shadow: 0 2px 12px rgba(0,0,0,0.15);
 }
 /* ...existing code... */
+.hero {
+  padding: 3rem 1rem;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;       /* vertically center text and image */
+  justify-content: space-between;
+  gap: 2rem;                 /* space between text and image */
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.hero-text {
+  flex: 1 1 50%;             /* allow text to take about half width */
+}
+
+.hero-image {
+  flex: 1 1 50%;             /* allow image to take about half width */
+  display: flex;
+  justify-content: center;   /* center the image in its column */
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;       /* optional styling */
+  object-fit: cover;
+}
+
+/* Mobile: stack vertically */
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;  /* stack on small screens */
+    text-align: center;
+  }
+  .hero-image, .hero-text {
+    flex: 1 1 auto;
+  }
+}
