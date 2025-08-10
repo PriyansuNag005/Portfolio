@@ -38,513 +38,221 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero">
-  <div class="hero-content">
-    <div class="hero-text">
-      <h1>Priyansu Nag</h1>
-      <p>B.Com (Hons.) Student | Finance & Accounting Enthusiast | Passionate About Business & Management | CS Aspirant</p>
-      <p>📍 Hyderabad, Telangana, India</p>
-      <a class="btn" href="#contact">Contact Me</a>
-    </div>
-    <div class="hero-image">
-      <img src="images/hero.jpg" alt="Priyansu Nag portrait">
-    </div>
-  </div>
-</section>
-
-<!-- ...existing code... -->
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="section">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>I'm a passionate and driven B.Com (Hons.) student at Loyola Academy, actively exploring the dynamic fields of Human Resources and Finance. Alongside my academic journey, I'm also pursuing the Company Secretary (CS) qualification, which reflects my deep interest in corporate governance, compliance, and organizational strategy.</p>
-                    <p>My current focus lies in understanding how strong financial planning and effective people management contribute to building resilient, ethical, and successful organizations.</p>
-                    
-                    <div class="traits">
-                        <h3>Key Traits</h3>
-                        <div class="trait-pills">
-                            <span class="pill">Curious</span>
-                            <span class="pill">Reliable</span>
-                            <span class="pill">Quick learner</span>
-                            <span class="pill">Collaborative</span>
-                            <span class="pill">Detail-oriented</span>
-                            <span class="pill">Strategic thinker</span>
-                        </div>
-                    </div>
-
-                    <div class="seeking">
-                        <h3>Currently Seeking</h3>
-                        <ul>
-                            <li>Management roles</li>
-                            <li>Human Resources Specialist</li>
-                            <li>Tax Associate</li>
-                            <li>Tax Intern</li>
-                            <li>Product Management Specialist</li>
-                            <li>Brand Management roles</li>
-                        </ul>
-                    </div>
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm Priyansu Nag</h1>
+                <h2 class="hero-subtitle">B.Com (Hons.) Student & CS Aspirant</h2>
+                <p class="hero-description">
+                    Finance & Accounting Enthusiast | Passionate About Business & Management | 
+                    Exploring the intersection of finance and technology
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View Projects</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <img src="https://via.placeholder.com/400x400/4F46E5/FFFFFF?text=PN" alt="Priyansu Nag" class="profile-image">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Education Section -->
-    <section id="education" class="section">
-        <div class="container">
-            <h2 class="section-title">Education</h2>
-            <div class="education-grid">
-                <div class="education-card">
-                    <div class="card-header">
-                        <div class="education-icon">🎓</div>
-                        <div class="education-status current">Current</div>
-                    </div>
-                    <h3>Bachelor of Commerce - BCom (Hons.)</h3>
-                    <p class="institution">Loyola Academy, Hyderabad</p>
-                    <p class="period">Jun 2023 – Jun 2026</p>
-                    <div class="grade">Grade: <span class="grade-value">9.4</span></div>
-                    <div class="progress-bar">
-                        <div class="progress-fill" style="width: 65%"></div>
-                    </div>
-                    <div class="skills-tags">
-                        <span class="skill-tag">Report Writing</span>
-                        <span class="skill-tag">Tally ERP</span>
-                        <span class="skill-tag">Accounting</span>
-                        <span class="skill-tag">Financial Analysis</span>
-                    </div>
-                </div>
+    <style>
+    /* Hero Section Styles */
+    .hero {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        padding: 2rem 0;
+        background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+    }
 
-                <div class="education-card">
-                    <div class="card-header">
-                        <div class="education-icon">📋</div>
-                        <div class="education-status current">Current</div>
-                    </div>
-                    <h3>Company Secretary - CS Executive</h3>
-                    <p class="institution">The Institute of Company Secretaries of India</p>
-                    <p class="period">May 2023 – Dec 2026</p>
-                    <div class="grade">Status: <span class="grade-value">In Progress</span></div>
-                    <div class="progress-bar">
-                        <div class="progress-fill" style="width: 45%"></div>
-                    </div>
-                    <div class="skills-tags">
-                        <span class="skill-tag">GST</span>
-                        <span class="skill-tag">Corporate Governance</span>
-                        <span class="skill-tag">Company Law</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    .hero-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+    }
 
-    <!-- Certifications Section -->
-    <section id="certifications" class="section">
-        <div class="container">
-            <h2 class="section-title">Certifications</h2>
-            <div class="certifications-grid">
-                <div class="cert-card">
-                    <div class="cert-header">
-                        <div class="cert-icon">📊</div>
-                        <div class="cert-date">July 2025</div>
-                    </div>
-                    <h3>Business Project Management</h3>
-                    <p class="cert-issuer">Udemy</p>
-                    <p class="cert-description">Certified in Business Project Management from MTF Institute via Udemy, reflecting hands-on learning in project planning, strategic execution, and team leadership.</p>
-                    <div class="cert-skills">
-                        <span class="cert-skill">Project Planning</span>
-                        <span class="cert-skill">Strategic Planning</span>
-                        <span class="cert-skill">Team Leadership</span>
-                    </div>
-                </div>
+    .hero-content {
+        flex: 1;
+        max-width: 600px;
+    }
 
-                <div class="cert-card">
-                    <div class="cert-header">
-                        <div class="cert-icon">🤖</div>
-                        <div class="cert-date">June 2025</div>
-                    </div>
-                    <h3>ChatGPT and Generative AI</h3>
-                    <p class="cert-issuer">Udemy</p>
-                    <p class="cert-description">Earned certification in ChatGPT and Generative AI, focusing on foundational concepts, prompt engineering techniques, and practical applications of language models.</p>
-                    <div class="cert-skills">
-                        <span class="cert-skill">Prompt Engineering</span>
-                        <span class="cert-skill">Generative AI</span>
-                        <span class="cert-skill">Digital Innovation</span>
-                    </div>
-                </div>
+    .hero-title {
+        font-size: 3.5rem;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+        background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
 
-                <div class="cert-card">
-                    <div class="cert-header">
-                        <div class="cert-icon">💼</div>
-                        <div class="cert-date">2025</div>
-                    </div>
-                    <h3>Investment Management Certificate</h3>
-                    <p class="cert-issuer">SWAYAM MHRD</p>
-                    <p class="cert-description">Investment Management Certificate focusing on foundational investment strategies and financial instruments. Covers portfolio management and risk assessment.</p>
-                    <div class="cert-skills">
-                        <span class="cert-skill">Investment Management</span>
-                        <span class="cert-skill">Portfolio Management</span>
-                        <span class="cert-skill">Risk Assessment</span>
-                    </div>
-                </div>
+    .hero-subtitle {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: var(--text-secondary);
+        margin-bottom: 1.5rem;
+    }
 
-                <div class="cert-card">
-                    <div class="cert-header">
-                        <div class="cert-icon">🎯</div>
-                        <div class="cert-date">2025</div>
-                    </div>
-                    <h3>Brand Management Certificate</h3>
-                    <p class="cert-issuer">Professional Development Institute</p>
-                    <p class="cert-description">Comprehensive certification in Brand Management covering brand strategy, positioning, consumer behavior, and brand communication. This certification enhances my understanding of marketing principles and strategic brand development.</p>
-                    <div class="cert-skills">
-                        <span class="cert-skill">Brand Strategy</span>
-                        <span class="cert-skill">Brand Positioning</span>
-                        <span class="cert-skill">Consumer Behavior</span>
-                        <span class="cert-skill">Marketing Communications</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    .hero-description {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        color: var(--text-muted);
+        margin-bottom: 2rem;
+    }
 
-    <!-- Projects Section -->
-    <section id="projects" class="section">
-        <div class="container">
-            <h2 class="section-title">Projects & Experience</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon">🏛️</div>
-                        <div class="project-status completed">Completed</div>
-                    </div>
-                    <h3>NSW Government Marketing & Communications</h3>
-                    <p class="project-platform">Forage - Job Simulation</p>
-                    <p class="project-description">Completed a comprehensive job simulation focused on marketing & communications at NSW Government, demonstrating practical skills in professional communication and strategic planning.</p>
-                    
-                    <div class="achievements">
-                        <h4>Key Achievements:</h4>
-                        <ul>
-                            <li>Developed a comprehensive communication plan for an advertising campaign</li>
-                            <li>Wrote a professional newsletter for staff at a government agency</li>
-                            <li>Gained practical experience in government communications protocols</li>
-                            <li>Demonstrated strategic thinking and attention to detail</li>
-                        </ul>
-                    </div>
+    .hero-buttons {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
 
-                    <div class="project-skills">
-                        <span class="project-skill">Communication Strategy</span>
-                        <span class="project-skill">Content Writing</span>
-                        <span class="project-skill">Project Coordination</span>
-                        <span class="project-skill">Government Relations</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    .btn {
+        padding: 0.875rem 2rem;
+        border-radius: 0.5rem;
+        font-weight: 500;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        display: inline-block;
+    }
 
-    <!-- Skills Section -->
-    <section id="skills" class="section">
-        <div class="container">
-            <h2 class="section-title">Skills & Expertise</h2>
-            <div class="skills-categories">
-                
-                <div class="skill-category">
-                    <h3>HR & Governance</h3>
-                    <div class="skills-list">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Corporate Governance</span>
-                                <span class="skill-percentage">85%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Recruitment & Talent Management</span>
-                                <span class="skill-percentage">75%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 75%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">HR Analytics & Employee Engagement</span>
-                                <span class="skill-percentage">70%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 70%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">GST & Tax Compliance</span>
-                                <span class="skill-percentage">80%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 80%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Company Law</span>
-                                <span class="skill-percentage">75%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 75%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    .btn-primary {
+        background: var(--primary-color);
+        color: white;
+    }
 
-                <div class="skill-category">
-                    <h3>Finance & Accounting</h3>
-                    <div class="skills-list">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Financial Accounting</span>
-                                <span class="skill-percentage">90%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 90%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Income Tax</span>
-                                <span class="skill-percentage">80%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 80%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Investment Management</span>
-                                <span class="skill-percentage">75%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 75%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Tally ERP</span>
-                                <span class="skill-percentage">85%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Microsoft Excel</span>
-                                <span class="skill-percentage">90%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 90%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    .btn-primary:hover {
+        background: var(--primary-hover);
+        transform: translateY(-2px);
+    }
 
-                <div class="skill-category">
-                    <h3>Marketing & Business</h3>
-                    <div class="skills-list">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Brand Management</span>
-                                <span class="skill-percentage">80%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 80%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Strategic Planning</span>
-                                <span class="skill-percentage">75%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 75%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Consumer Behavior Analysis</span>
-                                <span class="skill-percentage">70%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 70%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Marketing Communications</span>
-                                <span class="skill-percentage">75%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 75%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Business Strategy</span>
-                                <span class="skill-percentage">80%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 80%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    .btn-secondary {
+        background: transparent;
+        color: var(--primary-color);
+        border: 2px solid var(--primary-color);
+    }
 
-                <div class="skill-category">
-                    <h3>Tools & Professional</h3>
-                    <div class="skills-list">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Generative AI & Prompt Engineering</span>
-                                <span class="skill-percentage">85%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Microsoft Office Suite</span>
-                                <span class="skill-percentage">90%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 90%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Communication & Presentation</span>
-                                <span class="skill-percentage">85%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Report Writing & Research</span>
-                                <span class="skill-percentage">90%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 90%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Project Planning</span>
-                                <span class="skill-percentage">80%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 80%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    .btn-secondary:hover {
+        background: var(--primary-color);
+        color: white;
+        transform: translateY(-2px);
+    }
 
-            </div>
-        </div>
-    </section>
+    .hero-image {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 400px;
+    }
 
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Let's Connect</h3>
-                    <p>Open to internships, live projects, and mentorship opportunities in Finance, HR, and Brand Management</p>
-                    
-                    <div class="contact-methods">
-                        <div class="contact-method">
-                            <span class="contact-icon">📧</span>
-                            <div>
-                                <div class="contact-label">Email</div>
-                                <a href="mailto:priyansunag005@gmail.com" class="contact-value">priyansunag005@gmail.com</a>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-method">
-                            <span class="contact-icon">💼</span>
-                            <div>
-                                <div class="contact-label">LinkedIn</div>
-                                <a href="https://www.linkedin.com/in/priyansunag" target="_blank" class="contact-value">linkedin.com/in/priyansunag</a>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-method">
-                            <span class="contact-icon">📍</span>
-                            <div>
-                                <div class="contact-label">Location</div>
-                                <div class="contact-value">Hyderabad, Telangana, India</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    .image-placeholder {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        overflow: hidden;
+        background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+        padding: 0.25rem;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    }
 
-                <div class="contact-form-container">
-                    <form class="contact-form" id="contactForm">
-                        <div class="form-group">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" id="name" name="name" class="form-control" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" id="email" name="email" class="form-control" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="subject" class="form-label">Subject</label>
-                            <input type="text" id="subject" name="subject" class="form-control" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="message" class="form-label">Message</label>
-                            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
-                        </div>
-                        
-                        <button type="submit" class="btn btn-primary btn-full-width">Send Message</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+    .profile-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        background: var(--bg-primary);
+    }
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-text">
-                    <p>&copy; 2025 Priyansu Nag. All rights reserved.</p>
-                </div>
-                <div class="footer-links">
-                    <a href="mailto:priyansunag005@gmail.com">Email</a>
-                    <a href="https://www.linkedin.com/in/priyansunag" target="_blank">LinkedIn</a>
-                </div>
-            </div>
-        </div>
-    </footer>
+    /* Mobile Responsive Styles */
+    @media (max-width: 768px) {
+        .hero-container {
+            flex-direction: column;
+            text-align: center;
+            gap: 2rem;
+            padding: 0 1rem;
+        }
 
-    <!-- Loading Screen -->
-    <div class="loading-screen" id="loadingScreen">
-        <div class="loader">
-            <div class="loader-ring"></div>
-            <div class="loader-text">Loading Portfolio...</div>
-        </div>
-    </div>
+        .hero-content {
+            order: 2;
+        }
 
-    <script src="app.js"></script>
+        .hero-image {
+            order: 1;
+            max-width: 250px;
+        }
+
+        .image-placeholder {
+            width: 250px;
+            height: 250px;
+        }
+
+        .hero-title {
+            font-size: 2.5rem;
+        }
+
+        .hero-subtitle {
+            font-size: 1.25rem;
+        }
+
+        .hero-buttons {
+            justify-content: center;
+        }
+
+        .btn {
+            padding: 0.75rem 1.5rem;
+            font-size: 0.9rem;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .hero-title {
+            font-size: 2rem;
+        }
+
+        .hero-subtitle {
+            font-size: 1.1rem;
+        }
+
+        .hero-buttons {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .btn {
+            width: 200px;
+            text-align: center;
+        }
+    }
+
+    /* CSS Variables (add these if not already present) */
+    :root {
+        --primary-color: #4F46E5;
+        --primary-hover: #4338CA;
+        --secondary-color: #7C3AED;
+        --bg-primary: #0F0F0F;
+        --bg-secondary: #1A1A1A;
+        --text-primary: #FFFFFF;
+        --text-secondary: #E5E5E5;
+        --text-muted: #A3A3A3;
+    }
+
+    [data-theme="light"] {
+        --bg-primary: #FFFFFF;
+        --bg-secondary: #F8FAFC;
+        --text-primary: #1A1A1A;
+        --text-secondary: #4A4A4A;
+        --text-muted: #6B7280;
+    }
+    </style>
+
 </body>
 </html>
