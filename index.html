@@ -1,559 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Priyansu Nag - Portfolio</title>
-    <meta name="description" content="B.Com (Hons.) Student | Finance & Accounting Enthusiast | Passionate About Business & Management | CS Aspirant">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Priyansu Nag — Portfolio</title>
+  <meta name="description" content="B.Com (Hons.) student exploring HR, Finance, and Corporate Governance. CS aspirant. Based in Hyderabad, India." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <style>
+    :root { color-scheme: light dark; }
+    body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.6; }
+    header, main, footer { max-width: 960px; margin: auto; padding: 1.5rem; }
+    h1 { font-size: 2rem; margin-bottom: .25rem; }
+    .muted { color: #666; }
+    nav a { margin-right: 1rem; }
+    section { padding: 1rem 0; border-top: 1px solid #ddd; }
+    .grid { display: grid; gap: 1rem; }
+    @media (min-width: 700px) { .grid-2 { grid-template-columns: 1fr 1fr; } }
+    .kv { display: grid; grid-template-columns: 1fr auto; gap: .25rem .75rem; align-items: center; }
+    .skill { display: grid; grid-template-columns: 1fr auto; gap: .5rem; align-items: center; }
+    progress { width: 100%; height: .75rem; }
+    .contact a { display: inline-block; margin-right: 1rem; }
+    .pill { display: inline-block; padding: .25rem .5rem; border: 1px solid #ccc; border-radius: 999px; margin: .25rem .25rem 0 0; font-size: .9rem; }
+    .sr-only { position: absolute; left: -9999px; }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Priyansu Nag",
+    "jobTitle": "B.Com (Hons.) Student",
+    "address": { "@type": "PostalAddress", "addressLocality": "Hyderabad", "addressRegion": "Telangana", "addressCountry": "IN" },
+    "email": "mailto:priyansunag005@gmail.com",
+    "sameAs": ["https://www.linkedin.com/in/priyansunag"]
+  }
+  </script>
 </head>
-<body data-theme="dark">
-    <!-- Navigation -->
-    <nav class="nav">
-        <div class="nav-container">
-            <div class="nav-brand">
-                <span class="brand-text">Priyansu Nag</span>
-            </div>
-            <div class="nav-menu" id="navMenu">
-                <a href="#home" class="nav-link active">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#education" class="nav-link">Education</a>
-                <a href="#certifications" class="nav-link">Certifications</a>
-                <a href="#projects" class="nav-link">Projects</a>
-                <a href="#skills" class="nav-link">Skills</a>
-                <a href="#contact" class="nav-link">Contact</a>
-            </div>
-            <div class="nav-controls">
-                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
-                    <span class="theme-icon">🌙</span>
-                </button>
-                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
-        </div>
+<body>
+  <a class="sr-only" href="#main">Skip to content</a>
+  <header>
+    <h1>Priyansu Nag</h1>
+    <p class="muted">B.Com (Hons.) Student | Finance & Accounting | HR & Governance | CS Aspirant</p>
+    <nav aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#certs">Certifications</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
     </nav>
+  </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-background"></div>
-        <div class="hero-content">
-            <div class="hero-text">
-                <h1 class="hero-title">Priyansu Nag</h1>
-                <p class="hero-subtitle">B.Com (Hons.) Student | Finance & Accounting Enthusiast | Passionate About Business & Management | CS Aspirant</p>
-                <p class="hero-location">📍 Hyderabad, Telangana, India</p>
-                <div class="hero-buttons">
-                    <button class="btn btn-primary" id="downloadResume">Download Resume</button>
-                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
-                </div>
-            </div>
-        </div>
-       
-        <!-- ...existing code... -->
-<div class="hero-content">
-    <div class="hero-text">
-        <!-- ...existing code... -->
-    </div>
-    <div class="hero-image">
-        <img src="WhatsApp Image 2025-08-10 at 15.08.34_29159ba2.jpg" alt="Priyansu Nag" class="circular-img">
-    </div>
-</div>
-<!-- ...existing code... -->
+  <main id="main">
+    <section id="about" aria-labelledby="about-h">
+      <h2 id="about-h">About Me</h2>
+      <p>I'm a passionate and driven B.Com (Hons.) student at Loyola Academy, exploring Human Resources and Finance while pursuing the CS qualification. I’m focused on how financial planning and people management build resilient, ethical organizations.</p>
+      <div>
+        <span class="pill">Curious</span>
+        <span class="pill">Reliable</span>
+        <span class="pill">Quick learner</span>
+        <span class="pill">Collaborative</span>
+        <span class="pill">Detail-oriented</span>
+        <span class="pill">Strategic thinker</span>
+      </div>
+      <p class="muted">Hyderabad, Telangana, India</p>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="section">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>I'm a passionate and driven B.Com (Hons.) student at Loyola Academy, actively exploring the dynamic fields of Human Resources and Finance. Alongside my academic journey, I'm also pursuing the Company Secretary (CS) qualification, which reflects my deep interest in corporate governance, compliance, and organizational strategy.</p>
-                    <p>My current focus lies in understanding how strong financial planning and effective people management contribute to building resilient, ethical, and successful organizations.</p>
-                    
-                    <div class="traits">
-                        <h3>Key Traits</h3>
-                        <div class="trait-pills">
-                            <span class="pill">Curious</span>
-                            <span class="pill">Reliable</span>
-                            <span class="pill">Quick learner</span>
-                            <span class="pill">Collaborative</span>
-                            <span class="pill">Detail-oriented</span>
-                            <span class="pill">Strategic thinker</span>
-                        </div>
-                    </div>
-
-                    <div class="seeking">
-                        <h3>Currently Seeking</h3>
-                        <ul>
-                            <li>Management roles</li>
-                            <li>Human Resources Specialist</li>
-                            <li>Tax Associate</li>
-                            <li>Tax Intern</li>
-                            <li>Product Management Specialist</li>
-                            <li>Brand Management roles</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section id="education" aria-labelledby="edu-h">
+      <h2 id="edu-h">Education</h2>
+      <div class="grid grid-2">
+        <article>
+          <h3>Bachelor of Commerce (Hons.) — Loyola Academy</h3>
+          <div class="kv">
+            <span>Dates</span><strong>Jun 2023 – Jun 2026</strong>
+            <span>Grade</span><strong>9.4</strong>
+          </div>
+          <p>Coursework: Report Writing, Tally ERP, Accounting, Financial Analysis.</p>
+        </article>
+        <article>
+          <h3>Company Secretary — CS Executive</h3>
+          <div class="kv">
+            <span>Institute</span><strong>ICSI</strong>
+            <span>Status</span><strong>In Progress</strong>
+            <span>Dates</span><strong>May 2023 – Dec 2026</strong>
+          </div>
+          <p>Focus: GST, Corporate Governance, Company Law.</p>
+        </article>
+      </div>
     </section>
 
-    <!-- Education Section -->
-    <section id="education" class="section">
-        <div class="container">
-            <h2 class="section-title">Education</h2>
-            <div class="education-grid">
-                <div class="education-card">
-                    <div class="card-header">
-                        <div class="education-icon">🎓</div>
-                        <div class="education-status current">Current</div>
-                    </div>
-                    <h3>Bachelor of Commerce - BCom (Hons.)</h3>
-                    <p class="institution">Loyola Academy, Hyderabad</p>
-                    <p class="period">Jun 2023 – Jun 2026</p>
-                    <div class="grade">Grade: <span class="grade-value">9.4</span></div>
-                    <div class="progress-bar">
-                        <div class="progress-fill" style="width: 65%"></div>
-                    </div>
-                    <div class="skills-tags">
-                        <span class="skill-tag">Report Writing</span>
-                        <span class="skill-tag">Tally ERP</span>
-                        <span class="skill-tag">Accounting</span>
-                        <span class="skill-tag">Financial Analysis</span>
-                    </div>
-                </div>
-
-                <div class="education-card">
-                    <div class="card-header">
-                        <div class="education-icon">📋</div>
-                        <div class="education-status current">Current</div>
-                    </div>
-                    <h3>Company Secretary - CS Executive</h3>
-                    <p class="institution">The Institute of Company Secretaries of India</p>
-                    <p class="period">May 2023 – Dec 2026</p>
-                    <div class="grade">Status: <span class="grade-value">In Progress</span></div>
-                    <div class="progress-bar">
-                        <div class="progress-fill" style="width: 45%"></div>
-                    </div>
-                    <div class="skills-tags">
-                        <span class="skill-tag">GST</span>
-                        <span class="skill-tag">Corporate Governance</span>
-                        <span class="skill-tag">Company Law</span>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section id="certs" aria-labelledby="certs-h">
+      <h2 id="certs-h">Certifications</h2>
+      <article>
+        <h3>Business Project Management — MTF Institute (via Udemy)</h3>
+        <p><strong>Jul 2025</strong> — Project/Strategic Planning, Team Leadership.</p>
+      </article>
+      <article>
+        <h3>ChatGPT and Generative AI — Udemy</h3>
+        <p><strong>Jun 2025</strong> — Prompt Engineering, Generative AI.</p>
+      </article>
+      <article>
+        <h3>Investment Management — SWAYAM (MHRD)</h3>
+        <p><strong>2025</strong> — Portfolio Management, Risk Assessment.</p>
+      </article>
+      <article>
+        <h3>Brand Management — [Organization]</h3>
+        <p><strong>2025</strong> — Strategy, Positioning, Consumer Behavior, Comms.</p>
+      </article>
     </section>
 
-    <!-- Certifications Section -->
-    <section id="certifications" class="section">
-        <div class="container">
-            <h2 class="section-title">Certifications</h2>
-            <div class="certifications-grid">
-                <div class="cert-card">
-                    <div class="cert-header">
-                        <div class="cert-icon">📊</div>
-                        <div class="cert-date">July 2025</div>
-                    </div>
-                    <h3>Business Project Management</h3>
-                    <p class="cert-issuer">Udemy</p>
-                    <p class="cert-description">Certified in Business Project Management from MTF Institute via Udemy, reflecting hands-on learning in project planning, strategic execution, and team leadership.</p>
-                    <div class="cert-skills">
-                        <span class="cert-skill">Project Planning</span>
-                        <span class="cert-skill">Strategic Planning</span>
-                        <span class="cert-skill">Team Leadership</span>
-                    </div>
-                </div>
-
-                <div class="cert-card">
-                    <div class="cert-header">
-                        <div class="cert-icon">🤖</div>
-                        <div class="cert-date">June 2025</div>
-                    </div>
-                    <h3>ChatGPT and Generative AI</h3>
-                    <p class="cert-issuer">Udemy</p>
-                    <p class="cert-description">Earned certification in ChatGPT and Generative AI, focusing on foundational concepts, prompt engineering techniques, and practical applications of language models.</p>
-                    <div class="cert-skills">
-                        <span class="cert-skill">Prompt Engineering</span>
-                        <span class="cert-skill">Generative AI</span>
-                        <span class="cert-skill">Digital Innovation</span>
-                    </div>
-                </div>
-
-                <div class="cert-card">
-                    <div class="cert-header">
-                        <div class="cert-icon">💼</div>
-                        <div class="cert-date">2025</div>
-                    </div>
-                    <h3>Investment Management Certificate</h3>
-                    <p class="cert-issuer">SWAYAM MHRD</p>
-                    <p class="cert-description">Investment Management Certificate focusing on foundational investment strategies and financial instruments. Covers portfolio management and risk assessment.</p>
-                    <div class="cert-skills">
-                        <span class="cert-skill">Investment Management</span>
-                        <span class="cert-skill">Portfolio Management</span>
-                        <span class="cert-skill">Risk Assessment</span>
-                    </div>
-                </div>
-
-                <div class="cert-card">
-                    <div class="cert-header">
-                        <div class="cert-icon">🎯</div>
-                        <div class="cert-date">2025</div>
-                    </div>
-                    <h3>Brand Management Certificate</h3>
-                    <p class="cert-issuer">Professional Development Institute</p>
-                    <p class="cert-description">Comprehensive certification in Brand Management covering brand strategy, positioning, consumer behavior, and brand communication. This certification enhances my understanding of marketing principles and strategic brand development.</p>
-                    <div class="cert-skills">
-                        <span class="cert-skill">Brand Strategy</span>
-                        <span class="cert-skill">Brand Positioning</span>
-                        <span class="cert-skill">Consumer Behavior</span>
-                        <span class="cert-skill">Marketing Communications</span>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section id="projects" aria-labelledby="projects-h">
+      <h2 id="projects-h">Projects & Experience</h2>
+      <article>
+        <h3>NSW Government Marketing & Communications — Forage (Job Simulation)</h3>
+        <ul>
+          <li>Developed a communication plan for an advertising campaign.</li>
+          <li>Wrote a professional newsletter for a government agency.</li>
+          <li>Followed government communications protocols.</li>
+        </ul>
+        <p class="muted">Completed</p>
+      </article>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="section">
-        <div class="container">
-            <h2 class="section-title">Projects & Experience</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon">🏛️</div>
-                        <div class="project-status completed">Completed</div>
-                    </div>
-                    <h3>NSW Government Marketing & Communications</h3>
-                    <p class="project-platform">Forage - Job Simulation</p>
-                    <p class="project-description">Completed a comprehensive job simulation focused on marketing & communications at NSW Government, demonstrating practical skills in professional communication and strategic planning.</p>
-                    
-                    <div class="achievements">
-                        <h4>Key Achievements:</h4>
-                        <ul>
-                            <li>Developed a comprehensive communication plan for an advertising campaign</li>
-                            <li>Wrote a professional newsletter for staff at a government agency</li>
-                            <li>Gained practical experience in government communications protocols</li>
-                            <li>Demonstrated strategic thinking and attention to detail</li>
-                        </ul>
-                    </div>
+    <section id="skills" aria-labelledby="skills-h">
+      <h2 id="skills-h">Skills & Expertise</h2>
+      <div class="grid grid-2">
+        <article>
+          <h3>HR & Governance</h3>
+          <div class="skill"><span>Corporate Governance</span><span>85%</span></div>
+          <progress value="85" max="100" aria-label="Corporate Governance"></progress>
 
-                    <div class="project-skills">
-                        <span class="project-skill">Communication Strategy</span>
-                        <span class="project-skill">Content Writing</span>
-                        <span class="project-skill">Project Coordination</span>
-                        <span class="project-skill">Government Relations</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+          <div class="skill"><span>Recruitment & Talent Management</span><span>75%</span></div>
+          <progress value="75" max="100" aria-label="Recruitment & Talent Management"></progress>
 
-    <!-- Skills Section -->
-    <section id="skills" class="section">
-        <div class="container">
-            <h2 class="section-title">Skills & Expertise</h2>
-            <div class="skills-categories">
-                
-                <div class="skill-category">
-                    <h3>HR & Governance</h3>
-                    <div class="skills-list">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Corporate Governance</span>
-                                <span class="skill-percentage">85%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Recruitment & Talent Management</span>
-                                <span class="skill-percentage">75%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 75%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">HR Analytics & Employee Engagement</span>
-                                <span class="skill-percentage">70%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 70%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">GST & Tax Compliance</span>
-                                <span class="skill-percentage">80%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 80%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Company Law</span>
-                                <span class="skill-percentage">75%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 75%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <div class="skill"><span>HR Analytics & Engagement</span><span>70%</span></div>
+          <progress value="70" max="100" aria-label="HR Analytics & Engagement"></progress>
 
-                <div class="skill-category">
-                    <h3>Finance & Accounting</h3>
-                    <div class="skills-list">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Financial Accounting</span>
-                                <span class="skill-percentage">90%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 90%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Income Tax</span>
-                                <span class="skill-percentage">80%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 80%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Investment Management</span>
-                                <span class="skill-percentage">75%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 75%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Tally ERP</span>
-                                <span class="skill-percentage">85%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Microsoft Excel</span>
-                                <span class="skill-percentage">90%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 90%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <div class="skill"><span>GST & Tax Compliance</span><span>80%</span></div>
+          <progress value="80" max="100" aria-label="GST & Tax Compliance"></progress>
 
-                <div class="skill-category">
-                    <h3>Marketing & Business</h3>
-                    <div class="skills-list">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Brand Management</span>
-                                <span class="skill-percentage">80%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 80%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Strategic Planning</span>
-                                <span class="skill-percentage">75%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 75%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Consumer Behavior Analysis</span>
-                                <span class="skill-percentage">70%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 70%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Marketing Communications</span>
-                                <span class="skill-percentage">75%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 75%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Business Strategy</span>
-                                <span class="skill-percentage">80%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 80%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <div class="skill"><span>Company Law</span><span>75%</span></div>
+          <progress value="75" max="100" aria-label="Company Law"></progress>
+        </article>
 
-                <div class="skill-category">
-                    <h3>Tools & Professional</h3>
-                    <div class="skills-list">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Generative AI & Prompt Engineering</span>
-                                <span class="skill-percentage">85%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Microsoft Office Suite</span>
-                                <span class="skill-percentage">90%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 90%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Communication & Presentation</span>
-                                <span class="skill-percentage">85%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Report Writing & Research</span>
-                                <span class="skill-percentage">90%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 90%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Project Planning</span>
-                                <span class="skill-percentage">80%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 80%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <article>
+          <h3>Finance & Accounting</h3>
+          <div class="skill"><span>Financial Accounting</span><span>90%</span></div>
+          <progress value="90" max="100" aria-label="Financial Accounting"></progress>
 
-            </div>
-        </div>
-    </section>
+          <div class="skill"><span>Income Tax</span><span>80%</span></div>
+          <progress value="80" max="100" aria-label="Income Tax"></progress>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Let's Connect</h3>
-                    <p>Open to internships, live projects, and mentorship opportunities in Finance, HR, and Brand Management</p>
-                    
-                    <div class="contact-methods">
-                        <div class="contact-method">
-                            <span class="contact-icon">📧</span>
-                            <div>
-                                <div class="contact-label">Email</div>
-                                <a href="mailto:priyansunag005@gmail.com" class="contact-value">priyansunag005@gmail.com</a>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-method">
-                            <span class="contact-icon">💼</span>
-                            <div>
-                                <div class="contact-label">LinkedIn</div>
-                                <a href="https://www.linkedin.com/in/priyansunag" target="_blank" class="contact-value">linkedin.com/in/priyansunag</a>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-method">
-                            <span class="contact-icon">📍</span>
-                            <div>
-                                <div class="contact-label">Location</div>
-                                <div class="contact-value">Hyderabad, Telangana, India</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <div class="skill"><span>Investment Management</span><span>75%</span></div>
+          <progress value="75" max="100" aria-label="Investment Management"></progress>
 
-                <div class="contact-form-container">
-                    <form class="contact-form" id="contactForm">
-                        <div class="form-group">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" id="name" name="name" class="form-control" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" id="email" name="email" class="form-control" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="subject" class="form-label">Subject</label>
-                            <input type="text" id="subject" name="subject" class="form-control" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="message" class="form-label">Message</label>
-                            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
-                        </div>
-                        
-                        <button type="submit" class="btn btn-primary btn-full-width">Send Message</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+          <div class="skill"><span>Tally ERP</span><span>85%</span></div>
+          <progress value="85" max="100" aria-label="Tally ERP"></progress>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-text">
-                    <p>&copy; 2025 Priyansu Nag. All rights reserved.</p>
-                </div>
-                <div class="footer-links">
-                    <a href="mailto:priyansunag005@gmail.com">Email</a>
-                    <a href="https://www.linkedin.com/in/priyansunag" target="_blank">LinkedIn</a>
-                </div>
-            </div>
-        </div>
-    </footer>
+          <div class="skill"><span>Microsoft Excel</span><span>90%</span></div>
+          <progress value="90" max="100" aria-label="Microsoft Excel"></progress>
+        </article>
 
-    <!-- Loading Screen -->
-    <div class="loading-screen" id="loadingScreen">
-        <div class="loader">
-            <div class="loader-ring"></div>
-            <div class="loader-text">Loading Portfolio...</div>
-        </div>
-    </div>
+        <article>
+          <h3>Marketing & Business</h3>
+          <div class="skill"><span>Brand Management</span><span>80%</span></div>
+          <progress value="80" max="100" aria-label="Brand Management"></progress>
 
-    <script src="app.js"></script>
-</body>
-</html>
+          <div class="skill"><span>Strategic Planning</span><span>75%</span></div>
+          <progress value="75" max="100" aria-label="Strategic Planning"></progress>
+
+          <div class="skill"><span>Consumer Behavior Analysis</span><span>70%</span></div>
+          <progress value="70" max="100" aria-label="Consumer Behavior Analysis"></progress>
+
+          <div class="skill"><span>Marketing Communications</span><span>75%</span></div>
+          <progress value="75" max="100" aria-label="Marketing Communications"></progress>
+
+          <div class="skill"><span>Business Strategy</span><span>80%</span></div>
+          <progress value="80" max="100" aria-label="Business Strategy"></progress>
+        </article>
+
+        <article>
+          <h3>Tools & Professional</h3>
+          <div class="skill"><span>Generative AI & Prompt Engineering</span><span>85%</span></div>
+          <progress value="85" max="100" aria-label="Generative AI & Prompt Engineering"></progress>
+
+          <div class="skill"><span>Microsoft Office Suite</span><span>90%</span></div>
+          <progress value="90" max="100" aria-label="Microsoft Office Suite"></progress>
+
+          <div class="skill"><span>Communication &
